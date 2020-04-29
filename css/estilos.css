@@ -8,6 +8,10 @@ img {
     width: 100%;
 }
 
+p {
+    font-size: 15px;
+}
+
 /* Header */
 .header {
     position: fixed;
@@ -22,34 +26,26 @@ img {
     text-align: right;
 }
 
-.header_menu ul li{
+.header_menu ul li, .info ul li {
     display: inline-block;
     margin-top: 5px;
     margin-right: 5px;
 }
 
 .header_menu ul li a {
-    color: #1d1d1d;
-    font-weight: bold;
+    color: #8F8F8F;
     text-transform: capitalize;
-    letter-spacing: .1em;
-    font-size: 10px;
-    line-height: 20px;
+    font-size: 13px;
+    line-height: 24px;
     padding: 5px;
-}
-
-.header_menu ul li img {
-    padding-right: 20px;
 }
 
 .logo {
     width: 100%;
     height: 207px;
     background: url("../img/Google_logo.svg.png") no-repeat center;
-    background-size: auto;
     text-align: center;
     margin-top: 70px;
-    padding-top: 50px;
 }
 
 .busca {
@@ -57,12 +53,12 @@ img {
     border-radius: 30px;
     text-align: center;
     height: 40px;
-    width: 400px;
-    margin-left: 285px;
+    width: 500px;
+    margin-left: 240px;
 }
 
 .busca input {
-    width: 250px;
+    width: 420px;
     border: transparent;
 }
 
@@ -97,3 +93,48 @@ img {
 .botoes:hover {
     border: #1d1d1d;
 }
+
+footer {
+    width: 100%;
+    margin-top: 100px;
+    background-color: #f2f2f2;
+    color: #aaa;
+}
+
+.brasil {
+    height:50px;
+    text-align: left;
+    border-top: 1px solid #E4E4E4;
+    border-bottom: 1px solid #E4E4E4;
+}
+
+.brasil p {
+    margin: 16px 30px;
+}
+
+.info ul li a {
+    text-transform: capitalize;
+    line-height: 20px;
+    color: #aaa;
+    line-height: 24px;
+    margin: 30px;
+}
+
+.footer_direita, .footer_esquerda {
+    height: 58px;
+}
+
+.footer_esquerda ul li a {
+    text-align: left;
+    margin-top: 17px;
+    margin-bottom: 34px;
+    padding-left: 20px;
+}
+
+.footer_direita ul li a {
+    text-align: right;
+    margin-top: 17px;
+    margin-bottom: 34px;
+    padding-right: 20px;
+}
+
