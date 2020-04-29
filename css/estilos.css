@@ -1,0 +1,99 @@
+/* Estilos Gerais */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+/* Header */
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color:#fff;
+    padding: 10px 0px;
+    z-index: 99;
+}
+
+.header_menu {
+    text-align: right;
+}
+
+.header_menu ul li{
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.header_menu ul li a {
+    color: #1d1d1d;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: .1em;
+    font-size: 10px;
+    line-height: 20px;
+    padding: 5px;
+}
+
+.header_menu ul li img {
+    padding-right: 20px;
+}
+
+.logo {
+    width: 100%;
+    height: 207px;
+    background: url("../img/Google_logo.svg.png") no-repeat center;
+    background-size: auto;
+    text-align: center;
+    margin-top: 70px;
+    padding-top: 50px;
+}
+
+.busca {
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    text-align: center;
+    height: 40px;
+    width: 400px;
+    margin-left: 285px;
+}
+
+.busca input {
+    width: 250px;
+    border: transparent;
+}
+
+.busca img {
+    width: 24px;
+    height: 24px;
+    padding-top: 5px;
+    display: inline-block;
+    text-align: center;
+}
+
+.botao {
+    margin: 20px;
+    text-align: center;
+}
+
+.botao button {
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+.botoes {
+    margin-left: 10px;
+    font-size: 14px;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ddd;
+    color: #1d1d1d;
+}
+
+.botoes:hover {
+    border: #1d1d1d;
+}
