@@ -1,140 +1,172 @@
 /* Estilos Gerais */
 body {
-    font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 img {
     display: block;
-    width: 100%;
+    max-width: 100%;
 }
 
 p {
-    font-size: 15px;
+  font-size: 15px;
 }
 
 /* Header */
 .header {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color:#fff;
-    padding: 10px 0px;
-    z-index: 99;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  padding: 10px 0px;
+  z-index: 99;
 }
 
 .header_menu {
-    text-align: right;
+  text-align: right;
+  margin-right: 15px;
 }
 
-.header_menu ul li, .info ul li {
-    display: inline-block;
-    margin-top: 5px;
-    margin-right: 5px;
+.header_menu ul li {
+  display: inline-block;
+  margin-top: 5px;
+  margin-right: 5px;
 }
 
 .header_menu ul li a {
-    color: #8F8F8F;
-    text-transform: capitalize;
-    font-size: 13px;
-    line-height: 24px;
-    padding: 5px;
+  color: #8f8f8f;
+  text-transform: capitalize;
+  font-size: 13px;
+  line-height: 24px;
+  padding: 5px;
+}
+
+.header_menu ul li a:hover {
+    text-decoration: underline;
+  }
+
+.central {
+  width: 520px;
+  height: 320px;
+  margin:10% 20%;
+  background-color: aqua; /* TIRAR DEPOIS */
+}
+
+.central img {
+  text-align: center;
 }
 
 .logo {
-    width: 100%;
-    height: 207px;
-    background: url("../img/Google_logo.svg.png") no-repeat center;
-    text-align: center;
-    margin-top: 70px;
+  width: 100%;
+  height: 200px;
+  background: url("../img/Google_logo.svg.png") no-repeat center;
+  text-align: center;
+  margin-top: 70px;
 }
 
 .busca {
-    border: 1px solid #ccc;
-    border-radius: 30px;
-    text-align: center;
-    height: 40px;
-    width: 500px;
-    margin-left: 240px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  text-align: center;
+  height: 40px;
+  width: 500px;
+  /*margin-left: 240px;*/
 }
 
 .busca input {
-    width: 420px;
-    border: transparent;
+  width: 420px;
+  border: transparent;
+  text-align: center;
 }
 
 .busca img {
-    width: 24px;
-    height: 24px;
-    padding-top: 5px;
-    display: inline-block;
-    text-align: center;
+  width: 24px;
+  height: 24px;
+  padding-top: 5px;
+  display: inline-block;
+  text-align: center;
 }
 
 .botao {
-    margin: 20px;
-    text-align: center;
+  margin: 20px;
+  text-align: center;
 }
 
 .botao button {
-    background-color: #ccc;
-    border-radius: 5px;
+  background-color: #f2f2f2;
+  color: #f2f2f2;
+  border-radius: 5px;
+  border: none;
+}
+
+.botao button:hover {
+  background-color: #ccc;
+  border-radius: 5px;
 }
 
 .botoes {
-    margin-left: 10px;
-    font-size: 14px;
-    padding: 8px;
-    border: none;
-    border-radius: 5px;
-    background-color: #ddd;
-    color: #1d1d1d;
+  margin-left: 10px;
+  font-size: 14px;
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ddd;
+  color: #1d1d1d;
 }
 
 .botoes:hover {
-    border: #1d1d1d;
+  border: 0.5px solid #1d1d1d;
 }
 
 footer {
-    width: 100%;
-    margin-top: 100px;
-    background-color: #f2f2f2;
-    color: #aaa;
+  width: 100%;
+  background-color: #f2f2f2;
+  color: #aaa;
+}
+
+.cabecalho {
+  margin-top: 90px;
 }
 
 .brasil {
-    height:50px;
-    text-align: left;
-    border-top: 1px solid #E4E4E4;
-    border-bottom: 1px solid #E4E4E4;
+  height: 50px;
+  text-align: left;
+  border-top: 1px solid #e4e4e4;
+  border-bottom: 1px solid #e4e4e4;
 }
 
 .brasil p {
-    margin: 16px 30px;
+  margin: 16px 45px;
 }
 
-.info ul li a {
-    text-transform: capitalize;
-    line-height: 20px;
-    color: #aaa;
-    line-height: 24px;
-    margin: 30px;
+.links {
+  width: 100%;
+  padding: 10px 35px;
 }
 
-.footer_direita, .footer_esquerda {
-    height: 58px;
+.links ul li {
+  display: inline-block;
+  margin-top: 5px;
+  margin-right: 5px;
 }
 
-.footer_esquerda ul li a {
-    text-align: left;
-    margin-top: 17px;
-    margin-bottom: 34px;
-    padding-left: 20px;
+.links ul li a {
+  color: #8f8f8f;
+  text-transform: capitalize;
+  font-size: 14px;
+  line-height: 24px;
+  padding-right: 15px;
+  padding-bottom: 15px;
 }
 
-.footer_direita ul li a {
-    text-align: right;
-    margin-top: 17px;
-    margin-bottom: 34px;
-    padding-right: 20px;
+.links ul li a:hover {
+  text-decoration: underline;
 }
 
+.inf_direita {
+  text-align: right;
+}
+
+.inf_direita ul li a {
+  text-align: right;
+}
