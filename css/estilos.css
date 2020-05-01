@@ -628,12 +628,11 @@ p {
 
 /* Header */
 .header {
-  position: fixed;
+  position: relative;
   top: 0;
   width: 100%;
   background-color: #fff;
   padding: 10px 0px;
-  z-index: 99;
 }
 
 .header_menu {
@@ -674,7 +673,7 @@ p {
   height: 200px;
   background: url("../img/Google_logo.svg.png") no-repeat center;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 30px;
 }
 
 .busca {
@@ -727,17 +726,21 @@ p {
 }
 
 .botoes:hover {
-  border: 0.5px solid #1d1d1d;
+  border: 1px solid #dadada;
+  color: #1d1d1d;
+  box-shadow: 0px 1px 0px #ccc;
 }
 
 footer {
   width: 100%;
+  height: 120px;
   background-color: #f2f2f2;
   color: #aaa;
 }
 
 .cabecalho {
   margin-top: 85px;
+  line-height: 40px;
 }
 
 .brasil {
@@ -747,13 +750,14 @@ footer {
   border-bottom: 1px solid #e4e4e4;
 }
 
-.brasil p {
-  margin: 16px 45px;
+.brasil span {
+  margin: 20px 45px;
 }
 
 .links {
   width: 100%;
   padding: 10px 35px;
+  line-height: 40px;
 }
 
 .links ul li {
@@ -775,39 +779,67 @@ footer {
   text-decoration: underline;
 }
 
-.inf_direita {
-  text-align: right;
+.footer_esquerda {
+  float: left;
+}
+
+.footer_direita {
+  float: right;
 }
 
 /* RESPONSIVIDADE */
 /* 788px ESTILO -> TABLET */
 @media only screen and (min-width: 788px) and (max-width: 979px) {
+  
+  .header_menu {
+    margin-right: 40px;
+  }
+  
   .central {
     height: 320px;
     margin: auto;
+    margin-top: 10px;
   }
 
   .cabecalho {
     margin-top: 80px;
   }
 
+  .links {
+    height: 70px;
+  }
+
+
   /* Final do Estilo para TABLET */
 }
 
 /* <= 787px ESTILO -> CELULAR  */
 @media only screen and (max-width: 787px) {
+
+  .header_menu {
+    text-align: center;
+    margin-left: 50px;
+  }
+
+  .logo {
+    background-image: url("../img/Google_logo_mobile.png") no-repeat center;
+  }
+
   .central {
     width: 350px;
-    height: 300px;
+    height: auto;
     margin-left: -30px;
+    margin-top: 50px; /**/
+    margin-bottom: 100px; /**/
   }
 
   .busca {
-    width: 350px;
+    width: 280px;
+    margin-left: 40px;
   }
 
   .busca input {
-    width: 250px;
+    width: 200px;
   }
 
   .busca img {
@@ -819,22 +851,29 @@ footer {
     text-align: center;
   }
 
+  footer {
+    min-height: 160px;
+  }
+
   .cabecalho {
     margin-top: 98px;
   }
 
-  .brasil p {
+  .brasil span {
     font-size: 12px;
     margin-left: 35px;
   }
 
+
   .links ul li a {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .inf_direita {
-    margin-top: -49px;
-    margin-right: -35px;
+    float: left;
   }
+
+
+ 
   /* Final do estilo para CELULAR */
 }
