@@ -851,18 +851,17 @@ footer {
     margin-left: 35px;
   }
 
-
   .links ul li a {
-    font-size: 12px;
+    font-size: 11px;
   }
 
   .inf_esquerda {
-    margin-left: 100px;
+    margin-left: 25px;
   }
 
   .inf_direita {
     float: left;
-    margin-left: 100px;
+    margin-left: 15px;
   }
 
 
