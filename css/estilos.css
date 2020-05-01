@@ -869,8 +869,13 @@ footer {
     font-size: 12px;
   }
 
+  .inf_esquerda {
+    margin-left: 100px;
+  }
+
   .inf_direita {
     float: left;
+    margin-left: 100px;
   }
 
 
