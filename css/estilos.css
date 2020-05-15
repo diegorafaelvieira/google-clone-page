@@ -686,8 +686,9 @@ p {
 
 .busca input {
   width: 420px;
-  border: transparent;
   text-align: center;
+  border: none;
+  outline: none;
 }
 
 .busca img {
