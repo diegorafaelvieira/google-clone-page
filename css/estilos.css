@@ -855,13 +855,14 @@ footer {
   }
 
   .inf_esquerda {
-    margin-left: 15px;
+    margin-left: 65px;
   }
 
   .inf_direita {
     float: left;
-    margin-left: 10px;
+    margin-left: 55px;
   }
+
 
   /* Final do estilo para CELULAR */
 }
