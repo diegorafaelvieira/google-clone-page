@@ -4,7 +4,7 @@
  
  
  &nbsp;
- [AULA](https://alunos.b7web.com.br/curso/html5-e-css3-nivel-1/exercicio-um-clone-do-google)
+ [AULA](https://alunos.b7web.com.br/curso/html5-e-css3/exercicio-um-clone-do-google)
  
  
  &nbsp;
